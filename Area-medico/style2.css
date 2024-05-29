@@ -1,0 +1,410 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.margem {
+    position: absolute;
+    width: 93.75em;
+    height: 43.75em;
+    background-color: transparent;
+    border: 2px solid rgba(217, 187, 169, 1);
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+
+.textos {
+
+    margin-top: 10.3%;
+    margin-right: 92.85%;
+
+}
+
+.med img {
+
+    width: 9.375em;
+    height: 9.375em;
+}
+
+.med {
+    position: absolute;
+    right: 89.5%;
+    top: 1%;
+}
+
+.textosmed {
+    position: absolute;
+    top: 3em;
+    left: 13em;
+    max-width: 10em;
+
+
+}
+
+.textosmed p {
+
+    padding-top: 0.625em;
+
+    /* consegui sem o break :P */
+
+}
+
+.tabela {
+
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 27%;
+    max-width: 84em;
+
+}
+
+.tabela,
+tr,
+th,
+td {
+
+
+    padding: 0.625em;
+    border: 0.090em solid rgba(217, 187, 169, 1);
+    border-radius: 0.225em;
+    font-size: 1em;
+
+
+}
+
+.tabela th {
+    font-size: 1.500em;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 14.000em;
+    ;
+}
+
+.tabela td {
+    height: 3.40em;
+}
+
+
+.tabela-horarios table {
+
+    position: absolute;
+    top: 25.45em;
+    left: 25.75em;
+    width: 8.5em;
+    height: 21em;
+
+}
+
+.acoes {
+
+    position: absolute;
+    top: 1.5em;
+    left: 59em;
+
+
+}
+
+.icones {
+
+    width: 1.563em;
+    height: 1.563em;
+}
+
+.cont {
+    position: absolute;
+    top: 12.30em;
+}
+
+
+.botoes img {
+
+    width: 2.5em;
+    height: 1.8em;
+
+}
+
+
+/* Sinceramente eu tentei nao usar o absolute maaaass... */
+
+
+#botao1 {
+
+    position: absolute;
+    top: 13em;
+    left: 25.9em;
+    transition: .3s;
+}
+
+#botao2 {
+
+    position: absolute;
+    top: 13em;
+    left: 42.9em;
+    transition: .3s;
+
+
+}
+
+#botao3 {
+
+    position: absolute;
+    top: 13em;
+    left: 60.40em;
+    transition: .3s;
+
+}
+
+
+#meses {
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.5em;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+    width: 11em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    right: 3em;
+
+}
+
+
+#dias {
+    position: absolute;
+    font-size: 1.25em;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.5em;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+    width: 11em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#ano {
+    position: absolute;
+    font-size: 1.25em;
+    border: 2px solid rgba(217, 187, 169, 1);
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+    padding: 0.5em;
+    width: 11em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    right: 16.55em;
+
+}
+
+#saa {
+
+    position: absolute;
+    top: 3.5em;
+    right: 11.75em;
+    width: 3.125em;
+    height: 2.813em;
+    transition: .3s;
+}
+
+#add {
+
+    position: absolute;
+    top: 2em;
+    right: 28.45em;
+    width: 6.875em;
+    height: 6.25em;
+    transition: .3s;
+}
+
+#edd {
+
+    position: absolute;
+    top: 7.5em;
+    right: 30.45em;
+    width: 3em;
+    height: 3em;
+    transition: .3s;
+}
+
+#exx {
+    position: absolute;
+    top: 7.37em;
+    right: 11.25em;
+    width: 4em;
+    height: 4em;
+    transition: .3s;
+}
+
+#adicionar {
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.5em;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+    width: 11em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    left: 22em;
+    top: 1.5em;
+}
+
+#excluir {
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.5em;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+    width: 11em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    left: 37em;
+    top: 5.042em;
+}
+
+
+#editar {
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.5em;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+    width: 11em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    left: 22em;
+    top: 5.042em;
+}
+
+#sair {
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.5em;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+    width: 11em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    left: 37em;
+    top: 1.5em;
+
+}
+
+
+#agenda {
+
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    background-color: rgba(217, 187, 169, 1);
+    padding: 0.625em;
+    width: 12.5em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+#pedidos {
+
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.625em;
+    width: 12.5em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    text-decoration: none;
+    color: black;
+
+}
+
+#pacientes {
+
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.625em;
+    width: 12.5em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#botao1:hover {
+
+    opacity: 60%;
+    cursor:pointer ;
+ }
+ 
+ #botao2:hover {
+ 
+     opacity: 60%;
+     cursor:pointer ;
+ }
+ 
+ #botao3:hover {
+     opacity: 60%;
+     cursor:pointer ;
+ }
+ 
+ #botao4:hover {
+     opacity: 60%;
+     cursor:pointer ;
+ }
+ 
+ #botao5:hover {
+     opacity: 60%;
+     cursor:pointer ;
+ }
+ 
+ 
+ #saa:hover {
+ 
+     transform: scale(1.10);
+     cursor: pointer;
+ }
+ 
+ #add:hover {
+ 
+     transform: scale(1.10);
+     cursor: pointer;
+ }
+ 
+ #edd:hover {
+ 
+     transform: scale(1.10);
+     cursor: pointer;
+ }
+ 
+ #exx:hover {
+ 
+     transform: scale(1.10);
+     cursor: pointer;
+ }

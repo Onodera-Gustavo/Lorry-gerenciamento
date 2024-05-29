@@ -1,0 +1,125 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo { 
+
+    position: absolute;
+    margin-right: 55%;
+
+}
+
+.logo img {
+
+    width: 180%;
+  
+}
+
+
+.barra {
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(246, 216, 197, 1);
+    margin-left: 65%;
+  
+}
+
+
+.textos{
+
+    margin-top: 15%;
+
+}
+
+.duv{
+
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 40%;
+
+}
+
+.duv img{
+
+    width: 68px;
+    height: 40px;
+
+}
+
+.lic{
+
+    position: absolute;
+    margin-top: 28.75%;
+    margin-left: 55%;
+
+}
+
+.lic img{
+
+    width: 100px;
+    height: 100px;
+
+}
+#Lg{
+
+    position: absolute;
+    font-size: 36px;
+    margin-left: 16.5%;
+}
+
+#conta{
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: 16.5%;
+    font-size: 20px;
+
+}
+
+#mat{
+    position: absolute;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(115, 115, 115, 1);
+    padding: 10px;
+    width: 300px;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 5%;
+    margin-left: 16%;
+}
+
+#pass {
+
+    position: absolute;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(115, 115, 115, 1);
+    padding: 10px;
+    width: 300px;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 10%;
+    margin-left: 16%;
+
+}
+
+#esq{
+
+     margin-top: 17.5%;
+    margin-left: 16.5%;
+    position: absolute;
+    
+}

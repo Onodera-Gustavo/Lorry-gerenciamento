@@ -1,0 +1,332 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.margem {
+    position: absolute;
+    width: 93.75em;
+    height: 43.75em;
+    background-color: transparent;
+    border: 2px solid rgba(217, 187, 169, 1);
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+
+.textos {
+
+    margin-top: 10.3%;
+    margin-right: 95%;
+
+}
+
+.med img {
+
+    width: 9.375em;
+    height: 9.375em;
+}
+
+.med {
+    position: absolute;
+    right: 89.5%;
+    top: 1%;
+}
+
+.textosmed {
+    position: absolute;
+    top: 4em;
+    left: 13em;
+    max-width: 10em;
+
+
+}
+
+.textosmed p {
+
+    padding-top: 0.625em;
+
+    /* consegui sem o break :P */
+
+}
+
+.tabela {
+
+    position: absolute;
+    top: 21.5%;
+    left: 22%;
+    max-width: 84em;
+
+}
+
+.tabela,
+tr,
+th,
+td {
+
+
+    padding: 0.625em;
+    border: 0.090em solid rgba(217, 187, 169, 1);
+    border-radius: 0.225em;
+    font-size: 1em;
+
+
+}
+
+.tabela th {
+    font-size: 1.500em;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.tabela td {
+    height: 3.40em;
+}
+
+
+
+.acoes {
+
+    position: absolute;
+    top: 1.5em;
+    left: 59em;
+
+
+}
+
+.icones {
+
+    width: 1.563em;
+    height: 1.563em;
+}
+
+.cont {
+    position: absolute;
+    top: 12.30em;
+}
+
+
+.botoes img {
+
+    width: 4em;
+    height: 2.5em;
+
+}
+
+/* Sinceramente eu tentei nao usar o absolute maaaass... */
+
+
+#cobaia{
+
+    text-decoration: none;
+    color: black;
+}
+
+#nome{
+
+    width: 20em;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+
+}
+
+#nascimento{
+
+    width: 14em;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+
+}
+
+/*faço */
+ #sexo {
+
+    width:10em ;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+
+ }
+
+#botao1 {
+
+    position: absolute;
+    top: 14.5em;
+    left: 27.20em;
+    z-index: +1;
+    transition: .3s;
+
+}
+
+#botao2 {
+
+    position: absolute;
+    top: 14.5em;
+    left: 57.25em;
+    z-index: +1;
+    transition: .3s;
+
+}
+
+#botao3 {
+
+    position: absolute;
+    top: 14.5em;
+    left: 78.40em;
+    z-index: +1;
+    transition: .3s;
+}
+
+
+#saa {
+
+    position: absolute;
+    top: 3.5em;
+    right: 11.75em;
+    width: 3.125em;
+    height: 2.813em;
+    transition: .3s;
+}
+
+#add {
+
+    position: absolute;
+    top:  6.5em;
+    right: 9.75em;
+    width: 6.875em;
+    height: 6.25em;
+    transition: .3s;
+}
+
+
+#adicionar {
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.5em;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+    width: 11em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    left: 37em;
+    top:5.042em;
+}
+
+#sair {
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.5em;
+    border-left: 2.5em solid rgba(217, 187, 169, 1);
+    width: 11em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    left: 37em;
+    top: 1.5em;
+
+}
+
+
+#agenda {
+
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.625em;
+    width: 12.5em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+#pedidos {
+
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.625em;
+    width: 12.5em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    text-decoration: none;
+    color: black;
+}
+
+#pacientes {
+
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    background-color: rgba(217, 187, 169, 1);
+    padding: 0.625em;
+    width: 12.5em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    text-decoration: none;
+    color: black;
+}
+
+#caixa {
+
+    font-size: 1.25em;
+    position: absolute;
+    border: 2px solid rgba(217, 187, 169, 1);
+    padding: 0.625em;
+    width: 12.5em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    text-decoration: none;
+    color: black;
+}
+
+
+#botao1:hover {
+
+    opacity: 60%;
+    cursor: pointer;
+
+}
+
+#botao2:hover {
+
+    opacity: 60%;
+    cursor: pointer;
+
+}
+
+#botao3:hover {
+
+    opacity: 60%;
+    cursor: pointer;
+}
+
+
+#saa:hover {
+
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+#add:hover {
+
+    transform: scale(1.10);
+    cursor: pointer;
+}
